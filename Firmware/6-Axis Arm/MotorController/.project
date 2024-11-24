@@ -24,4 +24,27 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Drivers</name>
+			<type>2</type>
+			<locationURI>COMMON/Drivers</locationURI>
+		</link>
+		<link>
+			<name>driverlib</name>
+			<type>2</type>
+			<locationURI>COMMON/driverlib/f28002x/driverlib</locationURI>
+		</link>
+		<link>
+			<name>f28002x_globalvariabledefs.c</name>
+			<type>1</type>
+			<locationURI>COMMON/device_support/f28002x/headers/source/f28002x_globalvariabledefs.c</locationURI>
+		</link>
+	</linkedResources>
+	<variableList>
+		<variable>
+			<name>COMMON</name>
+			<value>$%7BPARENT-2-PROJECT_LOC%7D/Common</value>
+		</variable>
+	</variableList>
 </projectDescription>
