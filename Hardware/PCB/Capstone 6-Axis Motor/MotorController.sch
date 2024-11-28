@@ -164,71 +164,43 @@
 <library name="TCAN1043GDMTRQ1">
 <packages>
 <package name="CONV_TPS63021DSJ">
-<rectangle x1="0.13" y1="0.1" x2="0.79" y2="1.35" layer="31"/>
-<rectangle x1="-0.79" y1="0.1" x2="-0.13" y2="1.35" layer="31"/>
-<rectangle x1="-0.79" y1="-1.35" x2="-0.13" y2="-0.1" layer="31"/>
-<rectangle x1="0.13" y1="-1.35" x2="0.79" y2="-0.1" layer="31"/>
-<rectangle x1="-0.79" y1="1.35" x2="-0.59" y2="2.2" layer="31"/>
-<rectangle x1="-0.33" y1="1.35" x2="-0.13" y2="2.2" layer="31"/>
-<rectangle x1="0.13" y1="1.35" x2="0.33" y2="2.2" layer="31"/>
-<rectangle x1="0.59" y1="1.35" x2="0.79" y2="2.2" layer="31"/>
-<wire x1="-1.575" y1="2.075" x2="-1.575" y2="1.94" width="0.127" layer="21"/>
-<wire x1="-1.575" y1="2.075" x2="-1.11" y2="2.075" width="0.127" layer="21"/>
-<wire x1="1.575" y1="-2.075" x2="1.575" y2="2.075" width="0.127" layer="51"/>
-<wire x1="1.575" y1="-2.075" x2="-1.575" y2="-2.075" width="0.127" layer="51"/>
-<wire x1="-1.575" y1="2.075" x2="-1.575" y2="-2.075" width="0.127" layer="51"/>
-<wire x1="-1.575" y1="2.075" x2="1.575" y2="2.075" width="0.127" layer="51"/>
-<wire x1="1.575" y1="-2.075" x2="1.575" y2="-1.94" width="0.127" layer="21"/>
-<wire x1="1.575" y1="-2.075" x2="1.11" y2="-2.075" width="0.127" layer="21"/>
-<wire x1="1.575" y1="2.075" x2="1.11" y2="2.075" width="0.127" layer="21"/>
-<wire x1="1.575" y1="2.075" x2="1.575" y2="1.94" width="0.127" layer="21"/>
-<wire x1="-1.575" y1="-2.075" x2="-1.11" y2="-2.075" width="0.127" layer="21"/>
-<wire x1="-1.575" y1="-2.075" x2="-1.575" y2="-1.94" width="0.127" layer="21"/>
-<circle x="-2.15" y="1.5" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.15" y="1.5" radius="0.1" width="0.2" layer="51"/>
-<wire x1="0.59" y1="2.45" x2="0.59" y2="-2.45" width="0.05" layer="39"/>
-<wire x1="0.59" y1="2.45" x2="1.95" y2="2.45" width="0.05" layer="39"/>
-<wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.05" layer="39"/>
-<wire x1="1.95" y1="-2.45" x2="0.59" y2="-2.45" width="0.05" layer="39"/>
+<wire x1="-1.575" y1="2.3" x2="-1.575" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-1.575" y1="2.3" x2="-1.11" y2="2.3" width="0.127" layer="21"/>
+<wire x1="1.575" y1="-2.3" x2="1.575" y2="2.3" width="0.127" layer="51"/>
+<wire x1="1.575" y1="-2.3" x2="-1.575" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-1.575" y1="2.3" x2="-1.575" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-1.575" y1="2.3" x2="1.575" y2="2.3" width="0.127" layer="51"/>
+<wire x1="1.575" y1="-2.3" x2="1.575" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="1.575" y1="-2.3" x2="1.11" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="1.575" y1="2.3" x2="1.11" y2="2.3" width="0.127" layer="21"/>
+<wire x1="1.575" y1="2.3" x2="1.575" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-1.575" y1="-2.3" x2="-1.11" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-1.575" y1="-2.3" x2="-1.575" y2="-2.1" width="0.127" layer="21"/>
+<circle x="-2.15" y="2" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.15" y="2" radius="0.1" width="0.2" layer="51"/>
 <text x="-2.508" y="2.492" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.508" y="-3.73" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.59" y1="-2.2" x2="0.79" y2="-1.35" layer="31" rot="R180"/>
-<rectangle x1="0.13" y1="-2.2" x2="0.33" y2="-1.35" layer="31" rot="R180"/>
-<rectangle x1="-0.33" y1="-2.2" x2="-0.13" y2="-1.35" layer="31" rot="R180"/>
-<rectangle x1="-0.79" y1="-2.2" x2="-0.59" y2="-1.35" layer="31" rot="R180"/>
-<smd name="1" x="-1.4" y="1.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="2" x="-1.4" y="1" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="3" x="-1.4" y="0.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="4" x="-1.4" y="0" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="5" x="-1.4" y="-0.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="6" x="-1.4" y="-1" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="7" x="-1.4" y="-1.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="8" x="1.4" y="-1.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="9" x="1.4" y="-1" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="10" x="1.4" y="-0.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="11" x="1.4" y="0" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="12" x="1.4" y="0.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="13" x="1.4" y="1" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="14" x="1.4" y="1.5" dx="0.6" dy="0.24" layer="1" roundness="100"/>
-<smd name="15" x="0" y="0" dx="1.58" dy="2.85" layer="1" cream="no"/>
-<smd name="15_1" x="-0.69" y="1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<smd name="15_2" x="-0.23" y="1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<smd name="15_3" x="0.23" y="1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<smd name="15_4" x="0.69" y="1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<smd name="15_5" x="0.69" y="-1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<smd name="15_6" x="0.23" y="-1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<smd name="15_7" x="-0.23" y="-1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<smd name="15_8" x="-0.69" y="-1.8125" dx="0.2" dy="0.775" layer="1" cream="no"/>
-<pad name="15_9" x="-0.5" y="0.746" drill="0.35" diameter="0.4064"/>
-<pad name="15_10" x="0" y="1" drill="0.35" diameter="0.4064"/>
-<pad name="15_11" x="0.5" y="0.746" drill="0.35" diameter="0.4064"/>
-<pad name="15_15" x="0" y="0.381" drill="0.35" diameter="0.4064"/>
-<pad name="15_16" x="0" y="-0.381" drill="0.35" diameter="0.4064"/>
-<pad name="15_17" x="0.5" y="0" drill="0.35" diameter="0.4064"/>
-<pad name="15_21" x="-0.5" y="-0.746" drill="0.35" diameter="0.4064"/>
-<pad name="15_22" x="0" y="-1" drill="0.35" diameter="0.4064"/>
-<pad name="15_23" x="0.5" y="-0.746" drill="0.35" diameter="0.4064"/>
-<pad name="15_12" x="-0.5" y="0" drill="0.35" diameter="0.4064"/>
+<smd name="1" x="-1.4" y="1.95" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="2" x="-1.4" y="1.3" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="3" x="-1.4" y="0.65" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="4" x="-1.4" y="0" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="5" x="-1.4" y="-0.65" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="6" x="-1.4" y="-1.3" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="7" x="-1.4" y="-1.95" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="8" x="1.4" y="-1.95" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="9" x="1.4" y="-1.3" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="10" x="1.4" y="-0.65" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="11" x="1.4" y="0" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="12" x="1.4" y="0.65" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="13" x="1.4" y="1.3" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="14" x="1.4" y="1.95" dx="0.6" dy="0.3" layer="1" roundness="100"/>
+<smd name="15" x="0" y="0" dx="1.6" dy="4.2" layer="1" cream="no"/>
+<pad name="15_2" x="-0.35" y="0.69" drill="0.35" diameter="0.4064"/>
+<pad name="15_1" x="0" y="1.65" drill="0.35" diameter="0.4064"/>
+<pad name="15_3" x="0.35" y="0.69" drill="0.35" diameter="0.4064"/>
+<pad name="15_4" x="-0.35" y="-0.69" drill="0.35" diameter="0.4064"/>
+<pad name="15_6" x="0" y="-1.65" drill="0.35" diameter="0.4064"/>
+<pad name="15_5" x="0.35" y="-0.69" drill="0.35" diameter="0.4064"/>
 </package>
 </packages>
 <symbols>
@@ -265,7 +237,7 @@
 <connect gate="G$1" pin="!RST" pad="5"/>
 <connect gate="G$1" pin="CANH" pad="13"/>
 <connect gate="G$1" pin="CANL" pad="12"/>
-<connect gate="G$1" pin="GND" pad="2 15 15_1 15_2 15_3 15_4 15_5 15_6 15_7 15_8 15_9 15_10 15_11 15_12 15_15 15_16 15_17 15_21 15_22 15_23"/>
+<connect gate="G$1" pin="GND" pad="2 15 15_1 15_2 15_3 15_4 15_5 15_6"/>
 <connect gate="G$1" pin="RXD" pad="4"/>
 <connect gate="G$1" pin="SCLK" pad="8"/>
 <connect gate="G$1" pin="SDI" pad="11"/>
