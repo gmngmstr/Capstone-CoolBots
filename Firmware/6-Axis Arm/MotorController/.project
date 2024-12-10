@@ -31,6 +31,11 @@
 			<locationURI>COMMON/Drivers</locationURI>
 		</link>
 		<link>
+			<name>device.c</name>
+			<type>1</type>
+			<locationURI>COMMON/device_support/f28002x/common/source/device.c</locationURI>
+		</link>
+		<link>
 			<name>driverlib</name>
 			<type>2</type>
 			<locationURI>COMMON/driverlib/f28002x/driverlib</locationURI>
